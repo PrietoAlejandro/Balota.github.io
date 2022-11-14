@@ -57,41 +57,18 @@ body
  }
 .imagen 
 {
-    background-image: url(/img/dolares.jpg);
+    background-image: url(/img/balotas.jpg);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
 }
-.tituloInicio
-{
-    margin-top: -75%;
+.Indicaciones {
     display: flex;
-    justify-content: space-around;   
+    justify-content: center;
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+    padding-top: 7em;
 }
-@media screen and (min-width: 320px)
-{
-    .imagen 
-    {
-        background-image: url(/img/dolares.jpg);
-        height: 74vw;
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100vw;
-        margin-top: 24px;
-    }
-    .tituloInicio
-    {
-        margin-top: -75%;
-        display: flex;
-        justify-content: space-around;   
-    }
-}
-@media screen and (min-width: 769px)
-{
-    .tituloInicio
-    {
-        display: flex;
-        justify-content: space-around;   
-    }
-}
+
