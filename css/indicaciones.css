@@ -72,3 +72,7 @@ body
     padding-top: 7em;
 }
 
+
+.balls { display: flex; flex-direction: column; justify-content: center; padding-top: 6%; }
+.opciones-main { display: flex; justify-content: center; }
+.balota-main { display: flex; justify-content: center; }
