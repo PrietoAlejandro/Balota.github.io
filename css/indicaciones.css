@@ -63,7 +63,8 @@ body
     background-repeat: no-repeat;
     width: 100vw;
 }
-.Indicaciones {
+.Indicaciones 
+{
     display: flex;
     justify-content: center;
     font-size: 1.6em;
@@ -71,8 +72,28 @@ body
     text-align: center;
     padding-top: 7em;
 }
-
-
-.balls { display: flex; flex-direction: column; justify-content: center; padding-top: 6%; }
-.opciones-main { display: flex; justify-content: center; }
-.balota-main { display: flex; justify-content: center; }
+.resultado
+{
+   display: flex;
+    justify-content: center;
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+}
+.balls 
+{ display: flex; 
+   flex-direction: column; 
+   justify-content: center; 
+   padding-top: 6%; 
+}
+.opciones-main 
+{ 
+   display: flex;
+   justify-content: center; 
+}
+.balota-main 
+{ 
+   display: flex; 
+   justify-content: center;
+}
